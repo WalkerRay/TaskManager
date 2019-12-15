@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:textSize="40dp"
+            android:text="taskname"
+            android:textColor="#141414"
+            />
+        <TextView
+            android:id="@+id/overTime"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="截止日期:"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/finished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:drawableRight="@android:drawable/btn_radio"
+        />
+
+</LinearLayout>
